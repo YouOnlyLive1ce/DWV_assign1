@@ -1,0 +1,378 @@
+[
+    {
+        "Rank": 1,
+        "Film Title": "Avatar",
+        "Worldwide gross": 2923706026,
+        "Release Year": 2009,
+        "Directed by": "James Cameron",
+        "Country": "United Kingdom"
+    },
+    {
+        "Rank": 2,
+        "Film Title": "Avengers: Endgame",
+        "Worldwide gross": 2797501328,
+        "Release Year": 2019,
+        "Directed by": "Anthony Russo",
+        "Country": "United States"
+    },
+    {
+        "Rank": 3,
+        "Film Title": "Avatar: The Way of Water",
+        "Worldwide gross": 2320250281,
+        "Release Year": 2022,
+        "Directed by": "James Cameron",
+        "Country": "United States"
+    },
+    {
+        "Rank": 1,
+        "Film Title": "Avatar",
+        "Worldwide gross": 2923706026,
+        "Release Year": 2009,
+        "Directed by": "James Cameron",
+        "Country": "United Kingdom"
+    },
+    {
+        "Rank": 2,
+        "Film Title": "Avengers: Endgame",
+        "Worldwide gross": 2797501328,
+        "Release Year": 2019,
+        "Directed by": "Anthony Russo",
+        "Country": "United States"
+    },
+    {
+        "Rank": 3,
+        "Film Title": "Avatar: The Way of Water",
+        "Worldwide gross": 2320250281,
+        "Release Year": 2022,
+        "Directed by": "James Cameron",
+        "Country": "United States"
+    },
+    {
+        "Rank": 1,
+        "Film Title": "Avatar",
+        "Worldwide gross": 2923706026,
+        "Release Year": 2009,
+        "Directed by": "James Cameron",
+        "Country": "United Kingdom"
+    },
+    {
+        "Rank": 2,
+        "Film Title": "Avengers: Endgame",
+        "Worldwide gross": 2797501328,
+        "Release Year": 2019,
+        "Directed by": "Anthony Russo",
+        "Country": "United States"
+    },
+    {
+        "Rank": 3,
+        "Film Title": "Avatar: The Way of Water",
+        "Worldwide gross": 2320250281,
+        "Release Year": 2022,
+        "Directed by": "James Cameron",
+        "Country": "United States"
+    },
+    {
+        "Rank": 4,
+        "Film Title": "Titanic",
+        "Worldwide gross": 2257844554,
+        "Release Year": 1997,
+        "Directed by": "James Cameron",
+        "Country": "United States"
+    },
+    {
+        "Rank": 5,
+        "Film Title": "Star Wars: The Force Awakens",
+        "Worldwide gross": 2068223624,
+        "Release Year": 2015,
+        "Directed by": "J. J. Abrams",
+        "Country": "United States"
+    },
+    {
+        "Rank": 6,
+        "Film Title": "Avengers: Infinity War",
+        "Worldwide gross": 2048359754,
+        "Release Year": 2018,
+        "Directed by": "Anthony Russo",
+        "Country": "United States"
+    },
+    {
+        "Rank": 8,
+        "Film Title": "Spider-Man: No Way Home",
+        "Worldwide gross": 1922598800,
+        "Release Year": 2021,
+        "Directed by": "Jon Watts",
+        "Country": "United States"
+    },
+    {
+        "Rank": 9,
+        "Film Title": "Inside Out 2",
+        "Worldwide gross": 1698863816,
+        "Release Year": 2024,
+        "Directed by": "Kelsey Mann",
+        "Country": "United States"
+    },
+    {
+        "Rank": 10,
+        "Film Title": "Jurassic World",
+        "Worldwide gross": 1671537444,
+        "Release Year": 2015,
+        "Directed by": "Colin Trevorrow",
+        "Country": "United States"
+    },
+    {
+        "Rank": 13,
+        "Film Title": "Furious 7",
+        "Worldwide gross": 1515341399,
+        "Release Year": 2015,
+        "Directed by": "James Wan",
+        "Country": "United States "
+    },
+    {
+        "Rank": 14,
+        "Film Title": "Top Gun: Maverick",
+        "Worldwide gross": 1495696292,
+        "Release Year": 2022,
+        "Directed by": "Joseph Kosinski",
+        "Country": "United States"
+    },
+    {
+        "Rank": 15,
+        "Film Title": "Frozen 2",
+        "Worldwide gross": 1450026933,
+        "Release Year": 2019,
+        "Directed by": "Chris Buck",
+        "Country": "United States"
+    },
+    {
+        "Rank": 16,
+        "Film Title": "Barbie",
+        "Worldwide gross": 1447038421,
+        "Release Year": 2023,
+        "Directed by": "Greta Gerwig",
+        "Country": "United States"
+    },
+    {
+        "Rank": 17,
+        "Film Title": "Avengers: Age of Ultron",
+        "Worldwide gross": 1402809540,
+        "Release Year": 2015,
+        "Directed by": "Joss Whedon",
+        "Country": "United States"
+    },
+    {
+        "Rank": 18,
+        "Film Title": "The Super Mario Bros. Movie",
+        "Worldwide gross": 1362566989,
+        "Release Year": 2023,
+        "Directed by": "Aaron Horvath",
+        "Country": "United States"
+    },
+    {
+        "Rank": 19,
+        "Film Title": "Black Panther",
+        "Worldwide gross": 1347280838,
+        "Release Year": 2018,
+        "Directed by": "Ryan Coogler",
+        "Country": "United States"
+    },
+    {
+        "Rank": 21,
+        "Film Title": "Deadpool & Wolverine",
+        "Worldwide gross": 1338073645,
+        "Release Year": 2024,
+        "Directed by": "Shawn Levy",
+        "Country": "United States"
+    },
+    {
+        "Rank": 22,
+        "Film Title": "Star Wars: The Last Jedi",
+        "Worldwide gross": 1332539889,
+        "Release Year": 2017,
+        "Directed by": "Rian Johnson",
+        "Country": "United States"
+    },
+    {
+        "Rank": 23,
+        "Film Title": "Jurassic World: Fallen Kingdom",
+        "Worldwide gross": 1308473425,
+        "Release Year": 2018,
+        "Directed by": "J. A. Bayona",
+        "Country": "China"
+    },
+    {
+        "Rank": 24,
+        "Film Title": "Frozen",
+        "Worldwide gross": 1290000000,
+        "Release Year": 2013,
+        "Directed by": "Chris Buck",
+        "Country": "United States"
+    },
+    {
+        "Rank": 25,
+        "Film Title": "Beauty and the Beast",
+        "Worldwide gross": 1263521126,
+        "Release Year": 2017,
+        "Directed by": "Bill Condon",
+        "Country": "United States"
+    },
+    {
+        "Rank": 26,
+        "Film Title": "Incredibles 2",
+        "Worldwide gross": 1242805359,
+        "Release Year": 2018,
+        "Directed by": "Brad Bird",
+        "Country": "United States"
+    },
+    {
+        "Rank": 28,
+        "Film Title": "Iron Man 3",
+        "Worldwide gross": 1214811252,
+        "Release Year": 2013,
+        "Directed by": "Shane Black",
+        "Country": "United States"
+    },
+    {
+        "Rank": 29,
+        "Film Title": "Minions",
+        "Worldwide gross": 1159444662,
+        "Release Year": 2015,
+        "Directed by": "Pierre Coffin",
+        "Country": "United States"
+    },
+    {
+        "Rank": 30,
+        "Film Title": "Captain America: Civil War",
+        "Worldwide gross": 1153337496,
+        "Release Year": 2016,
+        "Directed by": "Anthony Russo",
+        "Country": "United States"
+    },
+    {
+        "Rank": 31,
+        "Film Title": "Aquaman",
+        "Worldwide gross": 1148528393,
+        "Release Year": 2018,
+        "Directed by": "James Wan",
+        "Country": "United States"
+    },
+    {
+        "Rank": 33,
+        "Film Title": "Spider-Man: Far From Home",
+        "Worldwide gross": 1132679685,
+        "Release Year": 2019,
+        "Directed by": "Jon Watts",
+        "Country": "United States"
+    },
+    {
+        "Rank": 34,
+        "Film Title": "Captain Marvel",
+        "Worldwide gross": 1128274794,
+        "Release Year": 2019,
+        "Directed by": "Anna Boden",
+        "Country": "United States"
+    },
+    {
+        "Rank": 35,
+        "Film Title": "Transformers: Dark of the Moon",
+        "Worldwide gross": 1123794079,
+        "Release Year": 2011,
+        "Directed by": "Michael Bay",
+        "Country": "United States"
+    },
+    {
+        "Rank": 36,
+        "Film Title": "Skyfall",
+        "Worldwide gross": 1108594137,
+        "Release Year": 2012,
+        "Directed by": "Sam Mendes",
+        "Country": "United Kingdom"
+    },
+    {
+        "Rank": 37,
+        "Film Title": "Transformers: Age of Extinction",
+        "Worldwide gross": 1104054072,
+        "Release Year": 2014,
+        "Directed by": "Michael Bay",
+        "Country": "United States"
+    },
+    {
+        "Rank": 39,
+        "Film Title": "Joker",
+        "Worldwide gross": 1074458282,
+        "Release Year": 2019,
+        "Directed by": "Todd Phillips",
+        "Country": "United States"
+    },
+    {
+        "Rank": 40,
+        "Film Title": "Star Wars: The Rise of Skywalker",
+        "Worldwide gross": 1074144248,
+        "Release Year": 2019,
+        "Directed by": "J. J. Abrams",
+        "Country": "United States"
+    },
+    {
+        "Rank": 41,
+        "Film Title": "Toy Story 4",
+        "Worldwide gross": 1073394593,
+        "Release Year": 2019,
+        "Directed by": "Josh Cooley",
+        "Country": "United States"
+    },
+    {
+        "Rank": 42,
+        "Film Title": "Toy Story 3",
+        "Worldwide gross": 1066970811,
+        "Release Year": 2010,
+        "Directed by": "Lee Unkrich",
+        "Country": "United States"
+    },
+    {
+        "Rank": 44,
+        "Film Title": "Rogue One: A Star Wars Story",
+        "Worldwide gross": 1057420387,
+        "Release Year": 2016,
+        "Directed by": "Gareth Edwards",
+        "Country": "United States"
+    },
+    {
+        "Rank": 46,
+        "Film Title": "Aladdin",
+        "Worldwide gross": 1050693953,
+        "Release Year": 2019,
+        "Directed by": "Guy Ritchie",
+        "Country": "United States"
+    },
+    {
+        "Rank": 47,
+        "Film Title": "Star Wars: Episode I \u2013 The Phantom Menace",
+        "Worldwide gross": 1046515409,
+        "Release Year": 1999,
+        "Directed by": "George Lucas",
+        "Country": "United States"
+    },
+    {
+        "Rank": 48,
+        "Film Title": "Pirates of the Caribbean: On Stranger Tides",
+        "Worldwide gross": 1045713802,
+        "Release Year": 2011,
+        "Directed by": "Rob Marshall",
+        "Country": "United States"
+    },
+    {
+        "Rank": 49,
+        "Film Title": "Jurassic Park",
+        "Worldwide gross": 1037535230,
+        "Release Year": 1993,
+        "Directed by": "Steven Spielberg",
+        "Country": "United States"
+    },
+    {
+        "Rank": 50,
+        "Film Title": "Despicable Me 3",
+        "Worldwide gross": 1034800131,
+        "Release Year": 2017,
+        "Directed by": "Pierre Coffin",
+        "Country": "United States"
+    }
+]

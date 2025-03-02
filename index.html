@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Display</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Film Data</h1>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th><a href="#" onclick="sortTable('Rank')">Rank</a></th>
+                    <th><a href="#" onclick="sortTable('Film Title')">Film Title</a></th>
+                    <th><a href="#" onclick="sortTable('Worldwide gross')">Worldwide Gross</a></th>
+                    <th><a href="#" onclick="sortTable('Release Year')">Release Year</a></th>
+                    <th><a href="#" onclick="sortTable('Directed by')">Directed by</a></th>
+                    <th><a href="#" onclick="sortTable('Country')">Country</a></th>
+                </tr>
+            </thead>
+            <tbody id="data-container">
+                <!-- Data will be inserted here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS to load JSON data and sort -->
+    <script>
+        let data = []; // Store the JSON data globally
+
+        // Function to fetch and display JSON data
+        async function loadData() {
+            try {
+                console.log("Fetching data...");
+                const response = await fetch('./data.json'); // Use the correct path to your JSON file
+                if (!response.ok) {
+                    throw new Error('Failed to load data');
+                }
+                const jsonData = await response.json(); // Parse the JSON response
+                console.log("Data loaded successfully:", jsonData); // Debug: Log the parsed data
+
+                // Ensure the data is an array
+                if (!Array.isArray(jsonData)) {
+                    throw new Error('Data is not an array');
+                }
+
+                data = jsonData; // Store the data globally
+                renderTable(data); // Render the table
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        // Function to render the table
+        function renderTable(data) {
+            const container = document.getElementById('data-container');
+            container.innerHTML = ''; // Clear existing rows
+
+            console.log("Rendering table with data:", data); // Debug: Log the data being rendered
+
+            // Loop through the data and create table rows
+            data.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.Rank}</td>
+                    <td>${item['Film Title']}</td>
+                    <td>${item['Worldwide gross'].toLocaleString()}</td>
+                    <td>${item['Release Year']}</td>
+                    <td>${item['Directed by']}</td>
+                    <td>${item.Country}</td>
+                `;
+                container.appendChild(row);
+            });
+        }
+
+        // Function to sort the table by a specific column
+        function sortTable(column) {
+            console.log("Sorting by column:", column); // Debug: Log the column being sorted
+            data.sort((a, b) => {
+                if (a[column] < b[column]) return -1;
+                if (a[column] > b[column]) return 1;
+                return 0;
+            });
+            renderTable(data); // Re-render the table with sorted data
+        }
+
+        // Load data when the page loads
+        window.onload = loadData;
+    </script>
+</body>
+</html>
